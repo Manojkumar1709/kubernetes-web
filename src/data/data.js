@@ -70,8 +70,3 @@ export const data = [
     {cmd:'--vmodule=:', desc:'comma-separated list of pattern=N settings for file-filtered logging (only works for the default text log format)'},
     {cmd:'--warnings-as-errors=false:', desc:'Treat warnings received from the server as errors and exit with a non-zero exit code'},
 ]
-
-
-
-
-
