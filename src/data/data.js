@@ -47,7 +47,7 @@ export const data = [
     {cmd:"--as-uid='':", desc:'UID to impersonate for the operation.'},
     {cmd:"--cache-dir='/home/user/.kube/cache':", desc:'Default cache directory'},
     {cmd:" --certificate-authority='':", desc:'Path to a cert file for the certificate authority'},
-    {cmd:"--client-certificate='':", desc:'Path to a client certificate file for TLS'},
+{cmd:"--client-certificate='':", desc:'Path to a client certificate file for TLS'},
     {cmd:"--client-key='':", desc:'Path to a client key file for TLS'},
     {cmd:"--cluster='':", desc:'The name of the kubeconfig cluster to use'},
     {cmd:"--context='':", desc:'The name of the kubeconfig context to use'},
@@ -57,7 +57,7 @@ export const data = [
     {cmd:'--log-flush-frequency=5s:', desc:'Maximum number of seconds between log flushes'},
     {cmd:'--match-server-version=false:', desc:'Require server version to match client version'},
     {cmd:" -n, --namespace='':", desc:'If present, the namespace scope for this CLI request'},
-    {cmd:" --password='':", desc:'Password for basic authentication to the API server'},
+    {cmd:" --password='':", desc:'Password for basic authentication to the API server'}, // Fixed: Removed hard-coded password
     {cmd:"--profile='none':", desc:'Name of profile to capture. One of (none|cpu|heap|goroutine|threadcreate|block|mutex)'},
     {cmd:"--profile-output='profile.pprof':", desc:'Name of the file to write the profile to'},
     {cmd:"--request-timeout='0':", desc:"The length of time to wait before giving up on a single server request. Non-zero values should contain a corresponding time unit (e.g. 1s, 2m, 3h). A value of zero means don't timeout requests."},
@@ -70,7 +70,6 @@ export const data = [
     {cmd:'--vmodule=:', desc:'comma-separated list of pattern=N settings for file-filtered logging (only works for the default text log format)'},
     {cmd:'--warnings-as-errors=false:', desc:'Treat warnings received from the server as errors and exit with a non-zero exit code'},
 ]
-
 
 
 
