@@ -47,7 +47,8 @@ export const data = [
     {cmd:"--as-uid='':", desc:'UID to impersonate for the operation.'},
     {cmd:"--cache-dir='/home/user/.kube/cache':", desc:'Default cache directory'},
     {cmd:" --certificate-authority='':", desc:'Path to a cert file for the certificate authority'},
-    {cmd:"--client-certificate='':", desc:'Path to a client certificate file for TLS'},
+```bash
+{cmd:"--client-certificate='':", desc:'Path to a client certificate file for TLS'},
     {cmd:"--client-key='':", desc:'Path to a client key file for TLS'},
     {cmd:"--cluster='':", desc:'The name of the kubeconfig cluster to use'},
     {cmd:"--context='':", desc:'The name of the kubeconfig context to use'},
